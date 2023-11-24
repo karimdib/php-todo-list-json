@@ -10,7 +10,7 @@ createApp({
     methods: {
         takeData() {
             axios.get('server.php').then((reply) => {
-                this.todos = reply.data.response
+                this.todos = reply.data.results
             })
         }
     },

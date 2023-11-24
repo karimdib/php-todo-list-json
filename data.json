@@ -1,0 +1,28 @@
+{
+    "todos": [
+        {
+            "text": "fare la spesa",
+            "done": "true"
+        },
+        {
+            "text": "Studiare",
+            "done": "true"
+        },
+        {
+            "text": "andare in palestra",
+            "done": "true"
+        },
+        {
+            "text": "andare a lavoro",
+            "done": "true"
+        },
+        {
+            "text": "fare la  dieta ",
+            "done": "true"
+        },
+        {
+            "text": "portare giu il cane",
+            "done": "true"
+        }
+    ]
+}

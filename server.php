@@ -1,5 +1,9 @@
 <?php
 
+$todo_file_json = file_get_contents('./data.json');
+$todos = json_decode($todo_file_json, true);
+
+/*
 $todos = [
     [
     'text' => 'Fare la spesa',
@@ -18,9 +22,11 @@ $todos = [
     'done' => true
     ]
 ];
+*/
+
+
 
 $response = [
-  'done' => true,
   'results' => $todos,
 ];
 

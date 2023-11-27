@@ -31,6 +31,10 @@
         {
             "done": true,
             "text": "salutare il vicino"
+        },
+        {
+            "done": true,
+            "text": "andare a mangiare una pizza"
         }
     ]
 }

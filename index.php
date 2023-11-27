@@ -13,7 +13,7 @@
     <div id="app">
         <section>
             <form action="" method="post">
-                <input type="text" v-model="inputText"  >
+                <input type="text" v-model.trim="inputText"  >
             </form>
             <ul>
                 <span>

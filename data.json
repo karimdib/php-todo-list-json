@@ -23,6 +23,14 @@
         {
             "text": "portare giu il cane",
             "done": "true"
+        },
+        {
+            "done": true,
+            "text": "fare i compiti"
+        },
+        {
+            "done": true,
+            "text": "salutare il vicino"
         }
     ]
 }

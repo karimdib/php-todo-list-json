@@ -12,11 +12,15 @@
 
     <div id="app">
         <section>
-            <form action="" method="POST">
-                <input type="text" >
+            <form action="" method="post">
+                <input type="text" v-model="inputText"  >
             </form>
             <ul>
+                <span>
+                    <input type="submit" value="Invia" @click="putData">
+                </span>
                 <li v-for=" (todo, i) in todos">{{todo.text}}</li>
+                
             </ul>
         </section>
     </div>
